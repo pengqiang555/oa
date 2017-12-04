@@ -1,0 +1,297 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1" />
+<meta http-equiv="X-UA-Compatible" content="IE=9" />
+<meta charset="utf-8">
+<title>数据导出</title>
+<!-- Style Sheets -->
+<link rel="stylesheet" href="css/css.css">
+<link rel="stylesheet" href="css/input.css">
+</head>
+
+<body>
+<!--header-->
+<div class="header-section">
+  <div class="header-con clearfix">
+    <div class="menu-right">
+      <ul class="toggle-list-menu">
+        <li><a href="javascript:;">修改登录密码</a></li>
+        <li><a href="javascript:;">修改头像</a></li>
+        <li><a href="javascript:;">注销</a></li>
+      </ul>
+      <a href="javascript:;" class="user-pic">
+	      <img src="images/user-avatar.jpg" alt="xxx">
+	      <em>特朗普</em>
+      </a>
+      <a href="javascript:;" class="toggle-btn">展开菜单</a>
+    </div>
+    <a href="javascript:;" class="main-logo"><img src="images/mLogo.png" alt="OA管理系统"></a>
+  </div>
+</div>
+<!--header end-->
+
+<div class="main-content">
+  <div class="main-left">
+    <ul id="side-menu">
+      <li><a href="javascript:;">系统首页</a></li>
+      <li><a href="javascript:;">组织架构</a></li>
+      <li><a href="javascript:;">人员信息管理</a>
+          <ol>
+            <li><a href="javascript:;">二级菜单项</a></li>
+            <li><a href="javascript:;">二级菜单项</a></li>
+            <li><a href="javascript:;">二级菜单项</a></li>
+          </ol></li>
+      <li><a href="javascript:;">福利管理</a></li>
+      <li><a href="javascript:;">制度与流程  </a>
+        <ol id="zdlc">
+          <li>
+            <div class="m-l">公司政策</div>
+            <div class="m-r"><a href="javascript:;">公司政策一</a><a href="javascript:;">公司政策二</a><a href="javascript:;">公司政策三</a></div>
+          </li>
+          <li>
+            <div class="m-l">人力资源制度与流程 </div>
+            <div class="m-r"><a href="javascript:;">招聘</a><a href="javascript:;">培训</a><a href="javascript:;">绩效</a><a href="javascript:;">薪酬福利</a><a href="javascript:;">入职流程</a><a href="javascript:;">离职流程</a></div>
+          </li>
+          <li>
+            <div class="m-l">行政制度与流程</div>
+            <div class="m-r"><a href="javascript:;">考勤</a><a href="javascript:;">休假</a><a href="javascript:;">差旅</a><a href="javascript:;">用车</a><a href="javascript:;">名片</a><a href="javascript:;">办公用品</a><a href="javascript:;">会议室</a><a href="javascript:;">办公室安全</a><a href="javascript:;">座位表</a><a href="javascript:;">访客登记</a></div>
+          </li>
+          <li>
+            <div class="m-l">财务制度与流程</div>
+            <div class="m-r"><a href="javascript:;">单项</a><a href="javascript:;">二级菜单项</a><a href="javascript:;">二级项</a><a href="javascript:;">单项</a><a href="javascript:;">二级菜单项</a><a href="javascript:;">二级项</a></div>
+          </li>
+          <li>
+            <div class="m-l">党员管理制度与流程 </div>
+            <div class="m-r"><a href="javascript:;">单项</a><a href="javascript:;">二级菜单项</a><a href="javascript:;">二级项</a><a href="javascript:;">单项</a><a href="javascript:;">二级菜单项</a><a href="javascript:;">二级项</a></div>
+          </li>
+          <li>
+            <div class="m-l">其他</div>
+            <div class="m-r"><a href="javascript:;">单项</a><a href="javascript:;">二级菜单项</a><a href="javascript:;">二级项</a><a href="javascript:;">单项</a><a href="javascript:;">二级菜单项</a><a href="javascript:;">二级项</a></div>
+          </li>
+        </ol>
+      </li>
+      <li><a href="javascript:;">内容管理</a></li>
+      <li><a href="javascript:;">超级管理员</a>
+          <ol>
+            <li><a href="javascript:;">二级菜单项</a></li>
+            <li><a href="javascript:;">二级菜单项</a></li>
+            <li><a href="javascript:;">二级菜单项</a></li>
+          </ol></li>
+      <li><a href="javascript:;">系统日志</a>
+          <ol>
+            <li><a href="javascript:;">二级菜单项</a></li>
+            <li><a href="javascript:;">二级菜单项</a></li>
+            <li><a href="javascript:;">二级菜单项</a></li>
+          </ol></li>
+      <li><a href="javascript:;">社团管理活动</a></li>
+      <li class="current"><a href="javascript:;">审批</a></li>
+    </ul>
+  </div>
+  <div class="main-right">
+    <!-- 页面标题 -->
+    <div class="page-tit"><a href="javascript:;">审批</a></div>
+    <!-- 页面标题 end -->
+    <div class="top-todo">
+      <div class="top-todo-btn">
+        <span class="todo-ent">同意</span>
+        <span class="todo-qx">拒绝</span>
+        <span class="todo-qx">评论</span>
+      </div>
+    </div>
+    <div class="rt-con">
+		  <div class="dynamic-inner">
+        
+
+
+
+
+        <div class="approve-info-box dataOut">
+          <div class="approve-info-item clearfix">
+            <div class="approve-info-tit">
+              <span>审批类型</span>
+            </div>
+            <div class="approve-info-con">
+              <span class="aic">
+                <div class="m-2 clearfix">
+                  <div class="m-2-select" style="width:200px;">
+                    <span class="showOption">请假</span>
+                    <ol>
+                      <li>出差</li>
+                      <li>外出</li>
+                      <li>补卡申请</li>
+                      <li>测试审批名称</li>
+                    </ol>
+                  </div>
+                  <div class="m-2-select" style="width:200px;">
+                    <span class="showOption">请选择运行状态</span>
+                    <ol>
+                      <li>全部</li>
+                      <li>完成</li>
+                      <li>运行中</li>
+                      <li>已撤销</li>
+                      <li>异常</li>
+                    </ol>
+                  </div>
+                </div>
+              </span>
+            </div>
+          </div>
+          <div class="approve-info-item clearfix">
+            <div class="approve-info-tit">
+              <span>发起时间</span>
+            </div>
+            <div class="approve-info-con">
+              <span class="aic">
+                <div class="view-input-area">
+                  <i class="dataIco"></i>
+                  <input name="" type="text" placeholder="开始时间">
+                </div>
+                <div class="view-input-area">
+                  <i class="dataIco"></i>
+                  <input name="" type="text" placeholder="结束时间">
+                </div>
+              </span>
+            </div>
+          </div>
+          <div class="approve-info-item clearfix">
+            <div class="approve-info-tit">
+              <span>完成时间</span>
+            </div>
+            <div class="approve-info-con">
+              <span class="aic">
+                <div class="view-input-area">
+                  <i class="dataIco"></i>
+                  <input name="" type="text" placeholder="开始时间">
+                </div>
+                <div class="view-input-area">
+                  <i class="dataIco"></i>
+                  <input name="" type="text" placeholder="结束时间">
+                </div>
+              </span>
+            </div>
+          </div>
+          <div class="approve-info-item clearfix">
+            <div class="approve-info-tit">
+              <span>标<em style="opacity: 0; overflow: visible;">空格</em>题</span>
+            </div>
+            <div class="approve-info-con">
+              <span class="aic">
+                <input class="inp-m" name="" type="text" style="width:200px;">
+              </span>
+            </div>
+          </div>
+          <div class="approve-info-item clearfix">
+            <div class="approve-info-tit">
+              <span>编<em style="opacity: 0; overflow: visible;">空格</em>号</span>
+            </div>
+            <div class="approve-info-con">
+              <span class="aic">
+                <input class="inp-m" name="" type="text" style="width:200px;">
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="approvalResultTable dataOutTable">
+          <table cellpadding="0" cellspacing="0" border="0" width="100%">
+            <tbody>
+              <tr style="background: #f3f3f3" align="center">
+                <th width="180" height="36">审批编号</th>
+                <th>标题</th>
+                <th width="140">发起时间</th>
+                <th width="140">完成时间</th>
+                <th width="250">历史审批人</th>
+              </tr>
+              <tr>
+                <td align="left">201711031449000212323</td>
+                <td>杨江华的请假申请</td>
+                <td>2017-02-02 11:11</td>
+                <td>2017-02-02 11:11</td>
+                <td class="historyPer"><span>习近平</span><span>李嘉诚</span><span>范冰冰</span><span>薛谦</span></td>
+              </tr>
+              <tr>
+                <td align="left">201711031449000212323</td>
+                <td>杨江华的请假申请</td>
+                <td>2017-02-02 11:11</td>
+                <td>2017-02-02 11:11</td>
+                <td class="historyPer"><span>习近平</span><span>李嘉诚</span><span>范冰冰</span><span>薛谦</span></td>
+              </tr>
+              <tr>
+                <td align="left">201711031449000212323</td>
+                <td>杨江华的请假申请</td>
+                <td>2017-02-02 11:11</td>
+                <td>2017-02-02 11:11</td>
+                <td class="historyPer"><span>习近平</span><span>李嘉诚</span><span>范冰冰</span><span>薛谦</span></td>
+              </tr>
+              <tr>
+                <td align="left">201711031449000212323</td>
+                <td>杨江华的请假申请</td>
+                <td>2017-02-02 11:11</td>
+                <td>2017-02-02 11:11</td>
+                <td class="historyPer"><span>习近平</span><span>李嘉诚</span><span>范冰冰</span><span>薛谦</span></td>
+              </tr>
+              <tr>
+                <td align="left">201711031449000212323</td>
+                <td>杨江华的请假申请</td>
+                <td>2017-02-02 11:11</td>
+                <td>2017-02-02 11:11</td>
+                <td class="historyPer"><span>习近平</span><span>李嘉诚</span><span>范冰冰</span><span>薛谦</span></td>
+              </tr>
+              <tr>
+                <td align="left">201711031449000212323</td>
+                <td>杨江华的请假申请</td>
+                <td>2017-02-02 11:11</td>
+                <td>2017-02-02 11:11</td>
+                <td class="historyPer"><span>习近平</span><span>李嘉诚</span><span>范冰冰</span><span>薛谦</span></td>
+              </tr>
+              <tr>
+                <td align="left">201711031449000212323</td>
+                <td>杨江华的请假申请</td>
+                <td>2017-02-02 11:11</td>
+                <td>2017-02-02 11:11</td>
+                <td class="historyPer"><span>习近平</span><span>李嘉诚</span><span>范冰冰</span><span>薛谦</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        
+
+
+
+
+
+
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- footer -->
+<div class="footer">
+  <span>Copyright © 2015-2016 Noitom Ltd. Perception Neuron is a registered trademark of Noitom Ltd.</span>
+</div>
+<!-- footer end-->
+
+
+
+
+
+<!-- JavaScripts -->
+<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+
+<script src="js/mine.js"></script>
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
